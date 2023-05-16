@@ -1,0 +1,35 @@
+$newGreen: #45444a;
+.topnav {
+  background-color: white;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+}
+.topnav #logo {
+  height: 12vh;
+
+}
+
+.btn {
+  display: inline-block;
+  font-size: 5vh;
+  outline: none;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  top: 0%;
+  vertical-align: middle;
+
+
+}
+.btn:hover {
+  color: $newGreen;
+}
+
+
+
+
+
