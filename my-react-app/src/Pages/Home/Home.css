@@ -3,10 +3,13 @@
   top: 50%;
   text-align: center;
   font-size: 4vh;
+  font-family: Monospace, sans-serif;
+  width: 98%;
+  left: 1%;
+  top: 0;
+  overflow:hidden;
 
 }
-
-
 
 #button{
   transition-duration: 0.4s;

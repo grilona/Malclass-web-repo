@@ -1,0 +1,60 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.buttonFile{
+  transition-duration: 0.4s;
+  border: none;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 30px;
+  padding: 2vh 3vw;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  font-size: 3vh;
+  text-decoration: none;
+  font-family: Monospace, sans-serif;
+
+}
+
+.buttonFile:hover {
+  border: 2px solid black; 
+  background-color: white;
+  color: black;
+}
+
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-spinner p {
+  margin-top: 10px;
+  font-family: Monospace, sans-serif;
+
+}
+
+.file-input {
+  display: none;
+}
+
+#response{
+  font-size: 60px;
+  font-family: Monospace, sans-serif;
+}
