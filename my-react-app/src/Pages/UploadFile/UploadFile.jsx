@@ -35,7 +35,7 @@ function UploadFile() {
       // Handle response from server
       setResponseData(response.data);
     } catch (error) {
-      // Handle error
+      console.log(error);
     } finally {
       // Stop loading
       setIsLoading(false);
@@ -64,7 +64,8 @@ function UploadFile() {
           </div>
         )}
 
-        {responseData && <p id="response">{JSON.stringify(responseData)}</p>}
+        {responseData && <p id="response">The classification is</p>}
+        {responseData && <p id="response">{responseData}</p>}
       </div>
     </div>
   );
